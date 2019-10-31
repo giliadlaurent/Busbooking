@@ -1,0 +1,13 @@
+<!-- Edit this file to change the layout of each record in the table view -->
+<!-- To disable clicking of a field, remove the  and  formatters around it-->
+
+<!-- If you wish to hide the table view header that contains the column titles, -->
+<!-- add the following to the availability_init() hook (in hooks/availability.php file) -->
+<!--     $options->ShowTableHeader = 0;     -->
+
+		<td id="availability-bus-<%%VALUE(id)%%>" class="availability-bus"><%%VALUE(bus)%%></td>
+		<td id="availability-route-<%%VALUE(id)%%>" class="availability-route"><%%VALUE(route)%%></td>
+		<td id="availability-amount-<%%VALUE(id)%%>" class="availability-amount"><%%VALUE(amount)%%></td>
+		<td id="availability-date-<%%VALUE(id)%%>" class="availability-date"><%%VALUE(date)%%></td>
+		<td id="availability-time-<%%VALUE(id)%%>" class="availability-time"><%%VALUE(time)%%></td>
+		<td id="availability-status-<%%VALUE(id)%%>" class="availability-status"><%%VALUE(status)%%></td>

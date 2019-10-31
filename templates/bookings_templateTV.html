@@ -1,0 +1,17 @@
+<!-- Edit this file to change the layout of each record in the table view -->
+<!-- To disable clicking of a field, remove the <%%SELECT%%> and <%%ENDSELECT%%> formatters around it-->
+
+<!-- If you wish to hide the table view header that contains the column titles, -->
+<!-- add the following to the bookings_init() hook (in hooks/bookings.php file) -->
+<!--     $options->ShowTableHeader = 0;     -->
+
+		<td id="bookings-id_number-<%%VALUE(id)%%>" class="bookings-id_number"><%%SELECT%%><%%VALUE(id_number)%%><%%ENDSELECT%%></td>
+		<td id="bookings-fullname-<%%VALUE(id)%%>" class="bookings-fullname"><%%SELECT%%><%%VALUE(fullname)%%><%%ENDSELECT%%></td>
+		<td id="bookings-phone-<%%VALUE(id)%%>" class="bookings-phone"><%%SELECT%%><%%VALUE(phone)%%><%%ENDSELECT%%></td>
+		<td id="bookings-bus-<%%VALUE(id)%%>" class="bookings-bus"><%%SELECT%%><%%VALUE(bus)%%><%%ENDSELECT%%></td>
+		<td id="bookings-seat-<%%VALUE(id)%%>" class="bookings-seat"><%%SELECT%%><%%VALUE(seat)%%><%%ENDSELECT%%></td>
+		<td id="bookings-amount-<%%VALUE(id)%%>" class="bookings-amount"><%%SELECT%%><%%VALUE(amount)%%><%%ENDSELECT%%></td>
+		<td id="bookings-date-<%%VALUE(id)%%>" class="bookings-date"><%%SELECT%%><%%VALUE(date)%%><%%ENDSELECT%%></td>
+		<td id="bookings-time-<%%VALUE(id)%%>" class="bookings-time"><%%SELECT%%><%%VALUE(time)%%><%%ENDSELECT%%></td>
+		<td id="bookings-luggage-<%%VALUE(id)%%>" class="bookings-luggage"><%%SELECT%%><%%VALUE(luggage)%%><%%ENDSELECT%%></td>
+		<td id="bookings-date_booked-<%%VALUE(id)%%>" class="bookings-date_booked"><%%SELECT%%><%%VALUE(date_booked)%%><%%ENDSELECT%%></td>

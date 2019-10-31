@@ -15,7 +15,8 @@ Customers can print receipts upon successfull booking and or can go to the booki
 3. Find a file named busbooking.sql
 4. Go to phpmyadmin and create a database named busbooking
 5. Import the file we named above busbooking.sql to create all the required tables for our system
-6. After successfull import you can now use the system
+6 .hook and resource rar files should exctraced within a root of your project
+7. After successfull import you can now use the system
 
 ## LOGIN DETAILS
  
